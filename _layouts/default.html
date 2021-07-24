@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+  
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/scripts/jquery-ui.min.js" ></script>
+
+    <title>{% if page.title %}{{ site.title | escape }} | {{page.title | escape }} {% else %} {{ site.title | escape }} {% endif %}</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <link href="assets/css/jquery-ui.css" rel="stylesheet">
+    <meta name="description" content="{% if page.description %}{{ page.description | escape }} {% else %} {{ site.description | escape }} {% endif %}">
+
+    <link rel="icon" 
+      type="image/png" 
+      href="./assets/images/logo2.png">
+
+
+  </head>
+    <body>
+
+      <div class="header padded bottom-border" style="clear:right">
+
+            <div class="clearfix">
+
+
+              <div class="pull-left">
+                <a href="/" class="nounderline">
+                  <div class="mark">
+                    <span class="uw">{{ site.title | escape }}</span>
+                  </div>
+                  <div class="padding-top">{{ site.description | escape }}</div>
+                </a>
+              </div>
+              
+
+              <div class="pull-right">
+
+                {% if site.colocated_title %}
+                PLATEAU {{ site.year | escape }} co-located with
+                <a href="{{ site.colocated_url | escape }}" title="{{ site.colocated_title | escape }}" target="_blank"><img src="{{ site.colocated_logo | escape }}" height="{{ site.logo_height | escape }}"></a>
+                {% endif %}
+                <div class="navbar-wrapper">
+
+                      <div class="padding-top">
+                        <div>
+                          {% for link in site.navbar_links %}
+                          <a
+                            {% if link.newtab == true %}
+                              target = "_blank"
+                            {% endif %}
+                            href="{{ link.url }}"><span class="navbarlink">{{ link.title }}</span></a>
+                          {% endfor %}
+                        </div>
+                      </div>
+                </div>
+              </div>
+
+
+            </div>
+
+      </div>
+
+      <div id="main">
+        <div class="content">
+
+
+        <p class="centered padded">
+
+        <div class="centered">
+        <div class="big"><span class="extra-big">PLATEAU</span>{{ site.year | escape }}</div>
+        <div>{{ site.nth_plateau | escape }} annual workshop on the intersection of HCI and PL</div>
+        <div>
+        <span>{{ site.location | escape }}</span>
+        <span class="left-padding">{{ site.workshop_date | escape }}</span>
+        <div class="centered">
+        <table class="centered inlineblock">
+          {% if site.colocated_title %}
+        <tr>
+        <td>
+          <span>Co-located with </span></td>
+          <td>
+          <a href="{{ site.colocated_url | escape }}" title="{{ site.colocated_title | escape }}" target="_blank"><img src="{{ site.colocated_logo | escape }}" height="{{ site.logo_height | escpae }}"></a> <td> {% if site.room_number_or_description %} &#183; {{ site.room_number_or_description | escape }} {% endif %}</td>
+          </td>
+          </tr>
+          {% endif %}
+          </table>
+        </div>
+        </div>
+        </div>
+
+        </p>
+
+        
+
+<table>
+<tr>
+  <td class="small" width="595px">
+
+          {{ content }}
+
+
+            </td>
+  <td width="5px">
+  </td>
+  <td class="small" width="200px" style="overflow:hidden">
+  
+  {% if site.submission_date or site.workshop_date %}
+  <div class="box">
+    <div class="header lead">
+    Important Dates
+    </div>
+
+      {% if site.submission_date %}
+    <div class="margin-bottom">
+      <div class="slightlybold">
+        {{ site.submission_date | escape }} (AoE time)
+      </div>
+      <div>
+        Paper Submission
+      </div>
+    </div>
+    {% endif %}
+
+  {% if site.workshop_date%}
+    <div>
+      <div class="slightlybold">
+        {{ site.workshop_date | escape }}
+      </div>
+      <div>
+        Workshop
+      </div>
+    </div>
+    {% endif %}
+
+  </div>
+  {% endif %}
+
+  {% if site.registration_site %}
+  <div class="box">
+    <div class="header lead">
+    Registration Site
+    </div>
+    <div class="margin-bottom">
+      <a href="{{ site.registration_site | escape }}" target="_blank">{{ site.registration_site | escape }}</a>
+    </div>
+  </div>
+  {% endif %}
+
+  {% if site.submission_site %}
+  <div class="box">
+    <div class="header lead">
+    Submission Site
+    </div>
+    <div class="margin-bottom">
+      <a href="{{ site.submission_site | escape }}" target="_blank">{{ site.submission_site | escape }}</a>
+    </div>
+  </div>
+  {% endif %}
+
+  {% if site.panelists %}
+  <div class="box">
+    <div class="header lead">
+    Panel
+    </div>
+
+    {% for panelist in site.panelists %}
+
+    <div class="margin-bottom">
+      <div class="slightlybold">
+        {{ panelist.name | escape }}
+      </div>
+      <div>
+        {{ panelist.affiliation | escape }}
+      </div>
+    </div>
+
+    {% endfor %}
+
+  </div>
+  {% endif %}
+
+  {% if site.organizers %}
+  <div class="box">
+    <div class="header lead">
+    Organizing Committee
+    </div>
+
+    {% for organizer in site.organizers %}
+
+    <div class="margin-bottom">
+      <div class="slightlybold">
+        {{ organizer.name | escape }}
+      </div>
+      <div>
+        {{ organizer.affiliation | escape }}
+      </div>
+    </div>
+
+    {% endfor %}
+
+  </div>
+  {% endif %}
+
+
+  </td>
+</tr>
+</table>
+
+
+  <div style="clear:both"></div>
+
+
+        <div class="footer">
+        </div>
+      </div>
+    
+
+</body></html>
+

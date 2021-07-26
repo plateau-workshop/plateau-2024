@@ -837,3 +837,8 @@ margin: 3px;
 .special{
   background-color: rgb(255,230,230);
 }
+
+.email{
+  color: rgb(220, 91, 93);
+  font-family: monospace;
+}

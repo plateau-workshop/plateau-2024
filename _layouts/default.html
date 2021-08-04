@@ -161,20 +161,20 @@
   </div>
   {% endif %}
 
-  {% if site.panelists %}
+  {% if site.mentors %}
   <div class="box">
     <div class="header lead">
-    Panel
+    Mentors
     </div>
 
-    {% for panelist in site.panelists %}
+    {% for mentor in site.mentors %}
 
     <div class="margin-bottom">
       <div class="slightlybold">
-        {{ panelist.name | escape }}
+        {{ mentor.name | escape }}
       </div>
       <div>
-        {{ panelist.affiliation | escape }}
+        {{ mentor.affiliation | escape }}
       </div>
     </div>
 

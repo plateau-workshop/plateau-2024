@@ -12,7 +12,7 @@ location: "@ Carnegie Mellon University, Pittsburgh PA USA"
 workshop_date: "Tuesday November 9, 2021"
 submission_date: "September 14, 2021"
 # submission_site: "https://easychair.org/conferences/?conf=plateau2020"
-# room_number_or_description: 
+# room_number_or_description:
 # registration_site: https://regmaster.com/2020conf/SPLASH20/register.php
 
 organizers:
@@ -23,8 +23,33 @@ organizers:
   - name: Joshua Sunshine
     affiliation: Carnegie Mellon University
 
-# panelists:
-
+mentors:
+  - name: Jonathan Aldrich
+    affiliation: Carnegie Mellon University
+  - name: Craig Anslow
+    affiliation: Victoria University of Wellington
+  - name: Ravi Chugh
+    affiliation: University of Chicago
+  - name: Michael Coblenz
+    affiliation: University of Maryland
+  - name: Mark Guzdial
+    affiliation: University of Michigan
+  - name: Björn Hartmann
+    affiliation: University of California, Berkeley
+  - name: Andrew Head
+    affiliation: University of Pennsylvania
+  - name: Thomas LaToza
+    affiliation: George Mason University
+  - name: Brad Myers
+    affiliation: Carnegie Mellon University
+  - name: Greg Nelson
+    affiliation: University of Washington
+  - name: Stephen Oney
+    affiliation: University of Michigan
+  - name: Nadia Polikarpova
+    affiliation: University of California, San Diego
+  - name: Andreas Stefik
+    affiliation: University of Nevada, Las Vegas
 
 # build settings
 exclude: ["readme.md"]

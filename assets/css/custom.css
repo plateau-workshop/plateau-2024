@@ -810,15 +810,22 @@ margin: 3px;
 }
 
 .break{
-  background-color: #f7f7f7
+  font-weight: 600;
 }
 
 .discussion{
   background-color: rgb(255,230,230);
 }
 
+td{
+  padding: 8px;
+}
+
 .talk{
-  background-color: rgb(255,245,230);
+  background-color: #dc5b5d70;
+}
+.session_title{
+  background-color: #5bdcda70
 }
 
 .schedule-left{
@@ -827,6 +834,7 @@ margin: 3px;
 .schedule-right{
    width: 30%;
    text-align:right;
+   font-size: 13px;
 }
 
 .italic{

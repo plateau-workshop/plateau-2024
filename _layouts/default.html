@@ -150,6 +150,17 @@
   </div>
   {% endif %}
 
+  {% if site.proceedings_site %}
+  <div class="box">
+    <div class="header lead">
+    Published Proceedings
+    </div>
+    <div class="margin-bottom">
+      <a href="{{ site.proceedings_site | escape }}" target="_blank">{{ site.proceedings_site | escape }}</a>
+    </div>
+  </div>
+  {% endif %}
+
   {% if site.submission_site %}
   <div class="box">
     <div class="header lead">

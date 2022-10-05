@@ -1,5 +1,4 @@
 jekyll serve
-
 bundle exec jekyll serve
 
 When you're ready to demote this one from being the top-level workshop (to a subdomain).

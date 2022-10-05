@@ -2,7 +2,7 @@
 title: "PLATEAU Workshop"
 description: "Bringing together Programming Languages and Human-Computer Interaction"
 url: "https://schasins.com/plateau/" # the base hostname & protocol for your site, e.g. http://example.com
-year: 2022
+year: 2023
 # colocated_url: "https://2020.splashcon.org/"
 # colocated_logo: "./assets/images/splash2020.png"
 # colocated_title: "SPLASH2020"
@@ -10,7 +10,7 @@ logo_height: "30px"
 nth_plateau: "13th"
 location: "@ Carnegie Mellon University, Pittsburgh PA USA"
 workshop_date: "Spring 2023"
-submission_date: "Tuesday, November 22nd, 2021"
+submission_date: "Tuesday, November 22nd, 2022"
 # submission_site: "https://easychair.org/conferences/?conf=plateau2020"
 #submission_site: "TBD"
 #proceedings_site: "TBD"

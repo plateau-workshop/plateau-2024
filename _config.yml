@@ -25,6 +25,16 @@ organizers:
   - name: Joshua Sunshine
     affiliation: Carnegie Mellon University
 
+student_organizers:
+  - name: Priyan Vaithilingam
+    affiliation: Harvard University
+  - name: Tyler Holloway
+    affiliation: Harvard University
+  - name: Justin Lubin
+    affiliation: University of California, Berkeley
+  - name: Ian McCormack
+    affiliation: Carnegie Mellon University
+    
 # build settings
 exclude: ["readme.md"]
 

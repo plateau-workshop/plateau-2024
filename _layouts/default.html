@@ -216,6 +216,27 @@
   </div>
   {% endif %}
 
+  {% if site.student_organizers %}
+  <div class="box">
+    <div class="header lead">
+    Student Organizers
+    </div>
+
+    {% for organizer in site.student_organizers %}
+
+    <div class="margin-bottom">
+      <div class="slightlybold">
+        {{ organizer.name | escape }}
+      </div>
+      <div>
+        {{ organizer.affiliation | escape }}
+      </div>
+    </div>
+
+    {% endfor %}
+
+  </div>
+  {% endif %}
 
   </td>
 </tr>

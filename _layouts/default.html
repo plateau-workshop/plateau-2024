@@ -114,13 +114,24 @@
     Important Dates
     </div>
 
-      {% if site.submission_date %}
+    {% if site.submission_date %}
     <div class="margin-bottom">
       <div class="slightlybold">
         {{ site.submission_date | escape }} (AoE time)
       </div>
       <div>
         Paper Submission
+      </div>
+    </div>
+    {% endif %}
+    
+    {% if site.backup_submission_date %}
+    <div class="margin-bottom">
+      <div class="slightlybold">
+        {{ site.backup_submission_date | escape }} (AoE time)
+      </div>
+      <div>
+        Backup Paper Submission (See Rolling Reviewing for details)
       </div>
     </div>
     {% endif %}

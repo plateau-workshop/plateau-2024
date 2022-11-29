@@ -11,6 +11,7 @@ nth_plateau: "13th"
 location: "@ Carnegie Mellon University, Pittsburgh PA USA"
 workshop_date: "February 13-14, 2023"
 submission_date: "Wednesday, December 7th, 2022"
+backup_submission_date: "Tuesday, January 10th, 2022"
 submission_site: "https://easychair.org/conferences/?conf=plateau2023"
 #proceedings_site: "TBD"
 # room_number_or_description:

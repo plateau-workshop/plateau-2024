@@ -35,6 +35,37 @@ student_organizers:
   - name: Ian McCormack
     affiliation: Carnegie Mellon University
     
+mentors:
+  - name: Craig Anslow
+    affiliation: Victoria University of Wellington
+  - name: Titus Barik 
+    affiliation: Apple
+  - name: Michael Coblenz
+    affiliation: University of California, San Diego
+  - name: Mark Guzdial
+    affiliation: University of Michigan
+  - name: Nadia Polikarpova
+    affiliation: University of California, San Diego
+  - name: Andreas Stefik
+    affiliation: University of Nevada, Las Vegas
+  - name: Brian Hempel
+    affiliation: CIWRO
+  - name: Brittany Johnson-Matthews
+    affiliation: George Mason University
+  - name: Emma Söderberg
+    affiliation: Lund University
+  - name: Will Crichton
+    affiliation: Brown University
+  - name: Shriram Krishnamurthi
+    affiliation: Brown University
+  - name: Tianyi Zhang
+    affiliation: Purdue University
+  - name: Felienne Hermans
+    affiliation: Leiden University
+  - name: Chris Martens
+    affiliation: Northeastern University
+
+
 # build settings
 exclude: ["readme.md"]
 

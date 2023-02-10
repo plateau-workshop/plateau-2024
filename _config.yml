@@ -39,6 +39,8 @@ student_organizers:
 mentors:
   - name: Craig Anslow
     affiliation: Victoria University of Wellington
+  - name: Clément Pit-Claudel
+    affiliation: EPFL
   - name: Titus Barik 
     affiliation: Apple
   - name: Michael Coblenz

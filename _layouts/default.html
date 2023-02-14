@@ -185,6 +185,17 @@
   </div>
   {% endif %}
 
+  {% if site.mailing_list_link %}
+  <div class="box">
+    <div class="header lead">
+    Mailing List
+    </div>
+    <div class="margin-bottom">
+      <a href="{{ site.mailing_list_link | escape }}" target="_blank">{{ site.mailing_list_link | escape }}</a>
+    </div>
+  </div>
+  {% endif %}
+
   {% if site.mentors %}
   <div class="box">
     <div class="header lead">

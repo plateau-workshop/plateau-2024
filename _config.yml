@@ -29,9 +29,26 @@ organizers:
     affiliation: Carnegie Mellon University
 
 student_organizers:
+  - name: Shraddha Barke
+    affiliation: University of California - San Diego
+  - name: Matthew Davis
+    affiliation: Carnegie Mellon University
+  - name: Sam Estep
+    affiliation: Carnegie Mellon University
+  - name: Kasra Ferdowsi
+    affiliation: University of California - San Diego
+  - name: Michael James
+    affiliation: University of California - San Diego
+  - name: Jenny Liang
+    affiliation: Carnegie Mellon University
+  - name: Justin Lubin
+    affiliation: University of California - Berkeley
   - name: Ian McCormack
     affiliation: Carnegie Mellon University
-    
+  - name: Priyan Vaithilingam
+    affiliation: Harvard University
+  - name: Chelse Swoopes
+    affiliation: Harvard University
 mentors:
 
 # build settings

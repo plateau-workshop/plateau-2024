@@ -15,7 +15,7 @@ submission_date: "Wednesday, December 6th, 2023"
 notification_date: "Wednesday, December 13th, 2023"
 #backup_submission_date: ""
 submission_site: "https://easychair.org/conferences/?conf=plateau2024"
-#registration_site: ""
+registration_site: "https://forms.gle/U6zCxWZ2dvUkY7tX6"
 mailing_list_link: "https://groups.google.com/g/plateau-announcements"
 #proceedings_site: "TBD"
 # room_number_or_description:
@@ -68,9 +68,9 @@ navbar_links:
   - title: "Prior Year Sites"
     url: "/prior-year-sites"
     newtab: false
-#  - title: "Registration"
-#    url: "/registration"
-#    newtab: false
+  - title: "Registration"
+    url: "/registration"
+    newtab: false
 #  - title: "Program"
 #    url: "/program"
 #    newtab: false

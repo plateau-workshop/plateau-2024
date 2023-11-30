@@ -72,6 +72,10 @@ mentors:
     affiliation: University of California - Berkeley
   - name: Mark Guzdial
     affiliation: University of Michigan
+  - name: Mark Santolucito
+    affiliation: Barnard College
+  - name: Austin Henley
+    affiliation: Microsoft
 
 # build settings
 exclude: ["readme.md"]

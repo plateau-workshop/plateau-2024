@@ -45,37 +45,38 @@ student_organizers:
     affiliation: University of California - Berkeley
   - name: Ian McCormack
     affiliation: Carnegie Mellon University
-  - name: Priyan Vaithilingam
-    affiliation: Harvard University
   - name: Chelse Swoopes
     affiliation: Harvard University
+  - name: Priyan Vaithilingam
+    affiliation: Harvard University
+
 mentors:
-  - name: Hila Peleg
-    affiliation: Technion
-  - name: Alan Blackwell
-    affiliation: University of Cambridge
-  - name: Toby Li
-    affiliation: University of Notre Dame
   - name: Jonathan Aldrich
     affiliation: Carnegie Mellon University
-  - name: Brad Meyers
-    affiliation: Carnegie Mellon University
-  - name: Thomas LaToza
-    affiliation: George Mason University
-  - name: Will Crichton
-    affiliation: Brown University
-  - name: Michael Coblenz
-    affiliation: University of California - San Diego
   - name: Titus Barik
     affiliation: Apple
-  - name: Eunice Jun
-    affiliation: University of California - Berkeley
+  - name: Alan Blackwell
+    affiliation: University of Cambridge
+  - name: Michael Coblenz
+    affiliation: University of California - San Diego
+  - name: Will Crichton
+    affiliation: Brown University
   - name: Mark Guzdial
     affiliation: University of Michigan
-  - name: Mark Santolucito
-    affiliation: Barnard College
   - name: Austin Henley
     affiliation: Microsoft
+  - name: Eunice Jun
+    affiliation: University of Washington
+  - name: Thomas LaToza
+    affiliation: George Mason University
+  - name: Toby Li
+    affiliation: University of Notre Dame
+  - name: Brad Meyers
+    affiliation: Carnegie Mellon University
+  - name: Hila Peleg
+    affiliation: Technion
+  - name: Mark Santolucito
+    affiliation: Barnard College
 
 # build settings
 exclude: ["readme.md"]

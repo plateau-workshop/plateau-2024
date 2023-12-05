@@ -65,6 +65,8 @@ mentors:
     affiliation: University of Michigan
   - name: Austin Henley
     affiliation: Microsoft
+  - name: Felienne Hermans
+    affiliation: Leiden University
   - name: Eunice Jun
     affiliation: University of Washington
   - name: Thomas LaToza
@@ -77,6 +79,10 @@ mentors:
     affiliation: Technion
   - name: Mark Santolucito
     affiliation: Barnard College
+  - name: Gustavo Soares
+    affiliation: Microsoft
+
+
 
 # build settings
 exclude: ["readme.md"]

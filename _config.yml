@@ -79,12 +79,12 @@ mentors:
     affiliation: University of Michigan
   - name: Hila Peleg
     affiliation: Technion
+  - name: Clément Pit-Claudel
+    affiliation: EPFL
   - name: Mark Santolucito
     affiliation: Barnard College
   - name: Gustavo Soares
     affiliation: Microsoft
-
-
 
 # build settings
 exclude: ["readme.md"]

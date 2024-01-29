@@ -100,12 +100,12 @@ navbar_links:
   - title: "Home"
     url: "/"
     newtab: false
-  - title: "Prior Year Sites"
-    url: "/prior-year-sites"
-    newtab: false
   - title: "Registration"
     url: "/registration"
     newtab: false
-#  - title: "Program"
-#    url: "/program"
-#    newtab: false
+  - title: "Program"
+    url: "/program"
+    newtab: false
+  - title: "Prior Year Sites"
+    url: "/prior-year-sites"
+    newtab: false
